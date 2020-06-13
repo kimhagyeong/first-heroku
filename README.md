@@ -5,6 +5,7 @@ heroku 를 사용해 배포하기
 
 * Link : <https://gentle-dusk-67227.herokuapp.com/>   
 
+꼭 가상환경키고 같은 위치에 있는 프로젝트 파일 안에 들어가서 진행해야합니다!
 
 1. 프로젝트 폴더(manage.py가 있는 위치)에 .gitignore 파일 추가
 ```
