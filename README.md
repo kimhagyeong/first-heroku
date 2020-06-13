@@ -33,6 +33,9 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&
 ```python
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 ```
+```python
+ALLOWED_HOSTS = ['*']
+```
 4. 프로젝트 폴더 아래 Procfile 
 ```
 web: gunicorn 프로젝트명.wsgi --log-file -
