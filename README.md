@@ -22,7 +22,9 @@ media
 ->git add . 
 ->git commit -m "commit"
 ->git remote add origin http
-->git push -u origin master 
+->git push -u origin master
+왼쪽에 폴더들의 색깔이 하나라도 있으면 푸시 잘 안된겁니다.
+
 3. Settings.py >>
 ```python
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&k3q+pmu)5%asj6yjpkag')
@@ -65,6 +67,8 @@ MIDDLEWARE = [
 python-3.7.1
 ```
 +3.7.2도 가능하다고 업데이트됨.
++본인 버전이 3.8 이상이면 히로쿠에서 제공하는 파이선 버전보다 높을 확률이 있으니 버전이 높다면 heroku python version 확인해보시고
+제공하는 버전 이외라면 버전업이나 다운그래이드 해야합니다.
 
 13. setting.py 
 ```bash
@@ -73,11 +77,14 @@ STATIC_URL = '/static/'
 ```
 14. manage.py 와 같은 위치에 static 폴더
 15. python manage.py collectstatic
+그다음 꼭 깃에 업데이트를 다시해줘야함.
+왜냐면 왜냐면 왜냐면 왼쪽에 폴더들이 알록달록해졌으니까.
 16. git add .
 ->git commit -m "commit2"
 ->git push -u origin master
 17. heroku login
 18. heroku create
++크리에이트 했는데 본인이 히로쿠에서 app을 5개 이상  경우는 크리에이트가 되지 않음.
 19. git push heroku master
 20. heroku open
 
