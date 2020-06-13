@@ -88,4 +88,4 @@ STATIC_URL = '/static/'
 3. python version이 당시 3.8 대여서 -> 어느정도 버전 업이 되었다고 함. 파이썬 확인하고 다운그레이드 해야함.
 4. heroku app이 5개가 넘어서
 5. 경로문제
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/076e81fd-a78d-4ec6-a972-e468610a618d/_2019-03-21__12.44.03.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/076e81fd-a78d-4ec6-a972-e468610a618d/_2019-03-21__12.44.03.png)
+![image](https://user-images.githubusercontent.com/31887934/84564517-43f7b780-ad9d-11ea-98a4-6de8403e57e7.png)
