@@ -38,6 +38,7 @@ DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 ALLOWED_HOSTS = ['*']
 ```
 4. 프로젝트 폴더 아래 Procfile 
+![image](https://user-images.githubusercontent.com/31887934/84564517-43f7b780-ad9d-11ea-98a4-6de8403e57e7.png)
 ```
 web: gunicorn 프로젝트명.wsgi --log-file -
 ```
