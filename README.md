@@ -22,7 +22,7 @@ media
 ->git status 
 ->git add . 
 ->git commit -m "commit"
-->git remote add origin http
+->git remote add origin http(요기 http는 본인 깃 )
 ->git push -u origin master
 왼쪽에 폴더들의 색깔이 하나라도 있으면 푸시 잘 안된겁니다.
 
