@@ -91,6 +91,7 @@ STATIC_URL = '/static/'
 18. heroku create
 +크리에이트 했는데 본인이 히로쿠에서 app을 5개 이상  경우는 크리에이트가 되지 않음.
 19. git push heroku master
+20. heroku run python manage.py migrate
 20. heroku open
 
 
